@@ -1,0 +1,74 @@
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+#navSection ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+}
+
+#headerSection {
+    text-align: center;
+}
+
+#headerSection h1 {
+    font-style: italic;
+}
+
+#headerSection img {
+    border-radius: 100%;
+    height: 100px;
+}
+
+#about {
+    background-color: aquamarine;
+    padding: 10px 10px;
+}
+
+#about h3 {
+    text-align: center;
+}
+
+#info div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#paras {
+    justify-content: stretch;
+}
+
+#Exp {
+    background-color: aquamarine;
+}
+
+#Exp h3 {
+    text-align: center;
+}
+
+#Exp section {
+    display: flex;
+    font-size: small;
+}
+
+#form h5 {
+    text-align: center;
+}
+
+#label {
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 10px;
+    border-color: black;
+    padding: 10px 10px 10px 10px;
+}
+
+#label textarea {
+    padding: 10px 10px 10px 10px;
+}
+
+#label button {
+    text-align: start;
+}
