@@ -159,4 +159,5 @@ img {
     background-repeat: no-repeat;
     width: 50%;
     background-size: contain;
+    margin: auto;
 }
