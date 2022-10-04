@@ -1,0 +1,29 @@
+/*Ceci est un commentaire*/
+
+/*Les selecteurs*/
+
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+/* ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+} */
+
+p {
+    color: blue;
+    font-size: 2rem;
+    text-align: right;
+}
+
+/* selection par class */
