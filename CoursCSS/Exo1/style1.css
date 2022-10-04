@@ -1,0 +1,19 @@
+header {
+    color: var(--headercolor);
+}
+
+div {
+    --fond: #0c5c0c;
+
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: black;
+    color: rgb(85, 80, 40);
+    font-size: 4rem;
+}

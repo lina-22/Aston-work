@@ -1,3 +1,9 @@
+html {
+    --fond: #26E326;
+    --imgwidth: 300Px;
+}
+
+
 /*Ceci est un commentaire*/
 
 /*Les selecteurs*/
@@ -27,3 +33,106 @@ p {
 }
 
 /* selection par class */
+
+.para2 {
+    text-align: left;
+    color: black;
+}
+
+/* selection par id */
+#para3 {
+    text-align: center;
+    color: orange;
+}
+
+/* selection par decedant */
+
+/* div p {
+    color: red;
+} */
+
+/* selection par pseudos classes */
+a:hover {
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+}
+
+
+.div2 :first-child {
+    color: red;
+}
+
+.div2 p:first-of-type {
+    color: rgb(0, 255, 21);
+
+}
+
+.div3 :last-child {
+    color: red;
+}
+
+.div4 :last-child {
+    color: red;
+}
+
+.div4 p:last-of-type {
+    color: rgb(0, 255, 21);
+
+}
+
+/* Les pseudos-elemnts */
+
+.para-12::first-letter {
+    color: red;
+    font-size: 2rem;
+}
+
+.para-12::first-line {
+    color: aquamarine;
+    font-size: 2rem;
+}
+
+.para12 {
+    line-height: 5rem;
+}
+
+.para-12::before {
+    content: "mot ajouté ";
+    color: rgb(50, 80, 70);
+    font-size: 2rem;
+}
+
+.para-12::after {
+    content: " mot ajouté ";
+    color: rgb(50, 80, 70);
+    font-size: 2rem;
+}
+
+/* Selection avec plusieurs selector */
+
+h3,
+h4,
+h5 {
+    font-size: 5rem;
+}
+
+/* slection des balises utilisant un attribute */
+
+input[type="submit"] {
+    background-color: blue;
+    font-size: 2rem;
+
+}
+
+.button {
+    text-align: center;
+}
+
+img {
+    width: var(--imgwidth);
+}
+
+.para13 {
+    text-align: end;
+}
