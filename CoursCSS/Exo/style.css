@@ -136,3 +136,27 @@ img {
 .para13 {
     text-align: end;
 }
+
+.para-12 {
+    text-align: center;
+}
+
+/* LES MARGES */
+
+.div5 {
+    background-color: #427cbb;
+    /* margin: 100px 100px;
+    padding: 100px; */
+
+}
+
+/* unités de mesure */
+
+/* image de fond */
+
+.div5 {
+    background-image: url("/Exo/images/car1.jpeg");
+    background-repeat: no-repeat;
+    width: 50%;
+    background-size: contain;
+}
