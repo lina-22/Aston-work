@@ -1,0 +1,82 @@
+.divA{
+    
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px; 
+}
+
+.divA1{
+    background-color: aquamarine;
+    margin: 0% 2% 0% 2%;
+    padding: 1% 1% 1% 1%;
+    justify-content: space-between;  
+}
+
+
+.divB{
+    background-color: rgb(150, 143, 40);
+    margin: 0% 2% 0% 2%;
+    padding: 1% 1% 1% 1%;
+}
+
+.divC{ 
+    display: flex;
+    flex-direction: row;
+    padding: 1% 1% 1% 1%;
+
+}
+
+.divC1{
+    background-color: rgb(27, 78, 98);
+    margin: 0% 1% 0% 1%;
+    padding: 1% 1% 1% 1%;
+    justify-content: space-between;
+}
+
+.divD{
+    
+    display: flex;
+    flex-direction: row;
+}
+.divD1{
+    background-color: rgb(18, 64, 49);
+    display: flex;
+    flex-direction: row;
+    margin: 1% 2% 1% 2%;
+    padding: 1% 1% 1% 1%;
+}
+
+
+/* *********************** */
+@media screen and (max-width: 768px){
+    .divA, .divC .divD{
+        display: flex;
+        flex-direction: column;
+    }
+     .divDD{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .divD1{
+        margin: 1% 4% 1% 4%;
+    }
+    .divA1{
+        margin: 2% 2% 2% 2%;
+    }
+}
+@media screen and (max-width: 320px){
+
+    .divA, .divC{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divD1{
+        margin: 1% 2% 1% 2%;
+    }
+    .hide{
+        display: none;
+    }
+}
+
